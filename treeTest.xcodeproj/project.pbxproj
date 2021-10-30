@@ -16,6 +16,9 @@
 		9A917DD6272C5DFD00866429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A917DD4272C5DFD00866429 /* LaunchScreen.storyboard */; };
 		9A917DE1272C5DFD00866429 /* treeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917DE0272C5DFD00866429 /* treeTestTests.swift */; };
 		9A917DEC272C5DFD00866429 /* treeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917DEB272C5DFD00866429 /* treeTestUITests.swift */; };
+		9A917DFF272C610900866429 /* TreeNode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917DFD272C610900866429 /* TreeNode+CoreDataClass.swift */; };
+		9A917E00272C610900866429 /* TreeNode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917DFE272C610900866429 /* TreeNode+CoreDataProperties.swift */; };
+		9A917E02272C6D2800866429 /* TreeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A917E01272C6D2800866429 /* TreeLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9A917DE7272C5DFD00866429 /* treeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = treeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A917DEB272C5DFD00866429 /* treeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeTestUITests.swift; sourceTree = "<group>"; };
 		9A917DED272C5DFD00866429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A917DFD272C610900866429 /* TreeNode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TreeNode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A917DFE272C610900866429 /* TreeNode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TreeNode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A917E01272C6D2800866429 /* TreeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		9A917DBA272C5DFB00866429 = {
 			isa = PBXGroup;
 			children = (
+				9A917DFD272C610900866429 /* TreeNode+CoreDataClass.swift */,
+				9A917DFE272C610900866429 /* TreeNode+CoreDataProperties.swift */,
 				9A917DC5272C5DFB00866429 /* treeTest */,
 				9A917DDF272C5DFD00866429 /* treeTestTests */,
 				9A917DEA272C5DFD00866429 /* treeTestUITests */,
@@ -105,6 +113,7 @@
 				9A917DC8272C5DFB00866429 /* SceneDelegate.swift */,
 				9A917DCA272C5DFB00866429 /* ViewController.swift */,
 				9A917DCC272C5DFB00866429 /* Main.storyboard */,
+				9A917E01272C6D2800866429 /* TreeLog.swift */,
 				9A917DD2272C5DFD00866429 /* Assets.xcassets */,
 				9A917DD4272C5DFD00866429 /* LaunchScreen.storyboard */,
 				9A917DD7272C5DFD00866429 /* Info.plist */,
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A917E02272C6D2800866429 /* TreeLog.swift in Sources */,
 				9A917DCB272C5DFB00866429 /* ViewController.swift in Sources */,
+				9A917E00272C610900866429 /* TreeNode+CoreDataProperties.swift in Sources */,
 				9A917DD1272C5DFB00866429 /* treeTest.xcdatamodeld in Sources */,
 				9A917DC7272C5DFB00866429 /* AppDelegate.swift in Sources */,
+				9A917DFF272C610900866429 /* TreeNode+CoreDataClass.swift in Sources */,
 				9A917DC9272C5DFB00866429 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
